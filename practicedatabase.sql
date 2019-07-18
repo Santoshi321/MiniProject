@@ -1,0 +1,2107 @@
+--------------------------------------------------------
+--  File created - Thursday-July-18-2019   
+--------------------------------------------------------
+--------------------------------------------------------
+--  DDL for Table COLLECTIONS
+--------------------------------------------------------
+
+  CREATE TABLE "USER10"."COLLECTIONS" 
+   (	"A" NUMBER(10,3), 
+	"B" VARCHAR2(100 BYTE), 
+	"C" DATE, 
+	"D" CHAR(1 BYTE) DEFAULT 'Z', 
+	"E" DATE
+   ) SEGMENT CREATION IMMEDIATE 
+  PCTFREE 10 PCTUSED 40 INITRANS 1 MAXTRANS 255 
+ NOCOMPRESS LOGGING
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
+  BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
+  TABLESPACE "USERS" ;
+--------------------------------------------------------
+--  DDL for Table DEBS_NEW_TABLE
+--------------------------------------------------------
+
+  CREATE TABLE "USER10"."DEBS_NEW_TABLE" 
+   (	"A" NUMBER(3,0)
+   ) SEGMENT CREATION IMMEDIATE 
+  PCTFREE 10 PCTUSED 40 INITRANS 1 MAXTRANS 255 
+ NOCOMPRESS LOGGING
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
+  BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
+  TABLESPACE "USERS" ;
+--------------------------------------------------------
+--  DDL for Table DEBS_TABLE
+--------------------------------------------------------
+
+  CREATE TABLE "USER10"."DEBS_TABLE" 
+   (	"A" NUMBER(10,2), 
+	"B" DATE, 
+	"C" NUMBER(38,1)
+   ) SEGMENT CREATION IMMEDIATE 
+  PCTFREE 10 PCTUSED 40 INITRANS 1 MAXTRANS 255 
+ NOCOMPRESS LOGGING
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
+  BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
+  TABLESPACE "USERS" ;
+--------------------------------------------------------
+--  DDL for Table DEBS_TABLE_2
+--------------------------------------------------------
+
+  CREATE TABLE "USER10"."DEBS_TABLE_2" 
+   (	"A" NUMBER(10,2), 
+	"B" VARCHAR2(20 BYTE), 
+	"C" DATE
+   ) SEGMENT CREATION IMMEDIATE 
+  PCTFREE 10 PCTUSED 40 INITRANS 1 MAXTRANS 255 
+ NOCOMPRESS LOGGING
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
+  BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
+  TABLESPACE "USERS" ;
+--------------------------------------------------------
+--  DDL for Table DEBS_TABLE_DEFINITIONS
+--------------------------------------------------------
+
+  CREATE TABLE "USER10"."DEBS_TABLE_DEFINITIONS" 
+   (	"DEF_ID" NUMBER(10,2), 
+	"WORD_ID" NUMBER(10,2), 
+	"WORD_DEF" VARCHAR2(20 BYTE)
+   ) SEGMENT CREATION IMMEDIATE 
+  PCTFREE 10 PCTUSED 40 INITRANS 1 MAXTRANS 255 
+ NOCOMPRESS LOGGING
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
+  BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
+  TABLESPACE "USERS" ;
+--------------------------------------------------------
+--  DDL for Table DEBS_TABLE_NAME
+--------------------------------------------------------
+
+  CREATE TABLE "USER10"."DEBS_TABLE_NAME" 
+   (	"A" NUMBER(6,3), 
+	"B" VARCHAR2(100 BYTE), 
+	"V" DATE, 
+	"D" CHAR(1 BYTE) DEFAULT 'z'
+   ) SEGMENT CREATION IMMEDIATE 
+  PCTFREE 10 PCTUSED 40 INITRANS 1 MAXTRANS 255 
+ NOCOMPRESS LOGGING
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
+  BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
+  TABLESPACE "USERS" ;
+--------------------------------------------------------
+--  DDL for Table DEBS_TABLE_PORT
+--------------------------------------------------------
+
+  CREATE TABLE "USER10"."DEBS_TABLE_PORT" 
+   (	"A" NUMBER(10,2), 
+	"B" VARCHAR2(20 BYTE), 
+	"C" DATE
+   ) SEGMENT CREATION IMMEDIATE 
+  PCTFREE 10 PCTUSED 40 INITRANS 1 MAXTRANS 255 
+ NOCOMPRESS LOGGING
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
+  BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
+  TABLESPACE "USERS" ;
+--------------------------------------------------------
+--  DDL for Table DEBS_TABLE_WORDS
+--------------------------------------------------------
+
+  CREATE TABLE "USER10"."DEBS_TABLE_WORDS" 
+   (	"WORD_ID" NUMBER(10,2), 
+	"WORD_NAME" VARCHAR2(9 BYTE)
+   ) SEGMENT CREATION IMMEDIATE 
+  PCTFREE 10 PCTUSED 40 INITRANS 1 MAXTRANS 255 
+ NOCOMPRESS LOGGING
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
+  BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
+  TABLESPACE "USERS" ;
+--------------------------------------------------------
+--  DDL for Table DUCKS
+--------------------------------------------------------
+
+  CREATE TABLE "USER10"."DUCKS" 
+   (	"F" CHAR(6 BYTE), 
+	"V" VARCHAR2(6 BYTE)
+   ) SEGMENT CREATION IMMEDIATE 
+  PCTFREE 10 PCTUSED 40 INITRANS 1 MAXTRANS 255 
+ NOCOMPRESS LOGGING
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
+  BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
+  TABLESPACE "USERS" ;
+--------------------------------------------------------
+--  DDL for Table DUPLICATE
+--------------------------------------------------------
+
+  CREATE TABLE "USER10"."DUPLICATE" 
+   (	"ORDER_ID" NUMBER, 
+	"CUSTOMER_ID" NUMBER(6,0), 
+	"STATUS" VARCHAR2(20 BYTE), 
+	"SALESMAN_ID" NUMBER(6,0), 
+	"ORDER_DATE" DATE
+   ) SEGMENT CREATION IMMEDIATE 
+  PCTFREE 10 PCTUSED 40 INITRANS 1 MAXTRANS 255 
+ NOCOMPRESS LOGGING
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
+  BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
+  TABLESPACE "USERS" ;
+--------------------------------------------------------
+--  DDL for Table NEW_INVENTORIES
+--------------------------------------------------------
+
+  CREATE TABLE "USER10"."NEW_INVENTORIES" 
+   (	"PRODUCT_ID" NUMBER(12,0), 
+	"WAREHOUSE_ID" NUMBER(12,0), 
+	"QUANTITY" NUMBER(8,0)
+   ) SEGMENT CREATION IMMEDIATE 
+  PCTFREE 10 PCTUSED 40 INITRANS 1 MAXTRANS 255 
+ NOCOMPRESS LOGGING
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
+  BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
+  TABLESPACE "USERS" ;
+--------------------------------------------------------
+--  DDL for Table NEW_TABLE
+--------------------------------------------------------
+
+  CREATE TABLE "USER10"."NEW_TABLE" 
+   (	"A" NUMBER(3,0)
+   ) SEGMENT CREATION IMMEDIATE 
+  PCTFREE 10 PCTUSED 40 INITRANS 1 MAXTRANS 255 
+ NOCOMPRESS LOGGING
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
+  BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
+  TABLESPACE "USERS" ;
+--------------------------------------------------------
+--  DDL for Table PRODUCT_NAMES_WITH_CATEGORIES
+--------------------------------------------------------
+
+  CREATE TABLE "USER10"."PRODUCT_NAMES_WITH_CATEGORIES" 
+   (	"PRODUCT_NAME" VARCHAR2(255 BYTE), 
+	"CATEGORY_NAME" VARCHAR2(255 BYTE)
+   ) SEGMENT CREATION IMMEDIATE 
+  PCTFREE 10 PCTUSED 40 INITRANS 1 MAXTRANS 255 
+ NOCOMPRESS LOGGING
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
+  BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
+  TABLESPACE "USERS" ;
+--------------------------------------------------------
+--  DDL for Table TESTS
+--------------------------------------------------------
+
+  CREATE TABLE "USER10"."TESTS" 
+   (	"A" NUMBER, 
+	"B" VARCHAR2(100 BYTE)
+   ) SEGMENT CREATION IMMEDIATE 
+  PCTFREE 10 PCTUSED 40 INITRANS 1 MAXTRANS 255 
+ NOCOMPRESS LOGGING
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
+  BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
+  TABLESPACE "USERS" ;
+--------------------------------------------------------
+--  DDL for Table TEST_PIVOT
+--------------------------------------------------------
+
+  CREATE TABLE "USER10"."TEST_PIVOT" 
+   (	"ORDER_ID" NUMBER, 
+	"STATUS" VARCHAR2(20 BYTE)
+   ) SEGMENT CREATION IMMEDIATE 
+  PCTFREE 10 PCTUSED 40 INITRANS 1 MAXTRANS 255 
+ NOCOMPRESS LOGGING
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
+  BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
+  TABLESPACE "USERS" ;
+--------------------------------------------------------
+--  DDL for View AUG_VIEW
+--------------------------------------------------------
+
+  CREATE OR REPLACE FORCE EDITIONABLE VIEW "USER10"."AUG_VIEW" ("CATEGORY_NAME", "AUGUSTTOTALSALES") AS 
+  (
+        select category_name, sum(sales) augusttotalsales
+        from(
+        select 
+            pc.category_id
+            , pc.category_name
+            , (oi.quantity * oi.unit_price) sales
+            , o.order_date
+        from ot.product_categories pc
+        join ot.products p on pc.category_id = p.category_id
+        join ot.order_items oi on oi.product_id = p.product_id 
+        join ot.orders o on o.order_id = oi.order_id
+        where o.order_date between '1-AUG-16' and '31-AUG-16'
+        )
+        group by category_name
+)
+;
+--------------------------------------------------------
+--  DDL for View EMPLOYEES_SALES_VW
+--------------------------------------------------------
+
+  CREATE OR REPLACE FORCE EDITIONABLE VIEW "USER10"."EMPLOYEES_SALES_VW" ("FIRST_NAME", "LAST_NAME", "NUM_ORDERS", "TOTAL", "YR") AS 
+  ( 
+SELECT emp.first_name, emp.last_name, COUNT(o.order_id) num_orders, SUM(oi.quantity*oi.unit_price) total, EXTRACT(YEAR FROM o.order_date) yr
+  FROM ot.employees emp
+  JOIN ot.orders o ON emp.employee_id = o.salesman_id 
+  JOIN ot.order_items oi ON o.order_id = oi.order_id
+  GROUP BY emp.first_name, emp.last_name, EXTRACT(YEAR FROM o.order_date)
+ )
+;
+--------------------------------------------------------
+--  DDL for View EMPLOYEES_TENURE_VW
+--------------------------------------------------------
+
+  CREATE OR REPLACE FORCE EDITIONABLE VIEW "USER10"."EMPLOYEES_TENURE_VW" ("FIRST_NAME", "LAST_NAME", "HIRE_DATE", "TENURE") AS 
+  (
+SELECT emp.first_name, emp.last_name, emp.hire_date, ROUND((sysdate- emp.hire_date), 1) as tenure
+FROM 
+    ot.employees emp
+)
+;
+--------------------------------------------------------
+--  DDL for View EMPLOYEES_TENURE_YEARS_VW
+--------------------------------------------------------
+
+  CREATE OR REPLACE FORCE EDITIONABLE VIEW "USER10"."EMPLOYEES_TENURE_YEARS_VW" ("FIRST_NAME", "LAST_NAME", "HIRE_DATE", "TENURE") AS 
+  (
+SELECT emp.first_name, emp.last_name, emp.hire_date, ROUND((sysdate- emp.hire_date)/365, 3) as tenure
+FROM 
+    ot.employees emp
+
+)
+;
+--------------------------------------------------------
+--  DDL for View EMPLOYEES_VIEW
+--------------------------------------------------------
+
+  CREATE OR REPLACE FORCE EDITIONABLE VIEW "USER10"."EMPLOYEES_VIEW" ("EMPLOYEE_ID", "FIRST_NAME", "LAST_NAME", "EMAIL", "PHONE", "HIRE_DATE", "MANAGER_ID", "JOB_TITLE") AS 
+  (
+    SELECT "EMPLOYEE_ID","FIRST_NAME","LAST_NAME","EMAIL","PHONE","HIRE_DATE","MANAGER_ID","JOB_TITLE" FROM ot.employees
+)
+;
+--------------------------------------------------------
+--  DDL for View NEW_HIRES_VW
+--------------------------------------------------------
+
+  CREATE OR REPLACE FORCE EDITIONABLE VIEW "USER10"."NEW_HIRES_VW" ("FIRST_NAME", "LAST_NAME", "HIRE_DATE", "DENSE_RANK") AS 
+  SELECT 
+    first_name,
+    last_name,
+    hire_date, 
+    DENSE_RANK() OVER (ORDER BY hire_date) dense_rank
+FROM ot.employees 
+ORDER BY hire_date
+;
+--------------------------------------------------------
+--  DDL for View NEW_WAREHOUSE_VW
+--------------------------------------------------------
+
+  CREATE OR REPLACE FORCE EDITIONABLE VIEW "USER10"."NEW_WAREHOUSE_VW" ("WAREHOUSE_NAME", "CITY", "COUNTRY_NAME", "REGION_NAME") AS 
+  SELECT w.warehouse_name, l.city, c.country_name, r.region_name
+FROM ot.warehouses w 
+JOIN ot.locations l ON w.location_id = l.location_id
+JOIN ot.countries c ON l.country_id = c.country_id
+JOIN ot.regions r ON c.region_id = r.region_id
+;
+--------------------------------------------------------
+--  DDL for View ORDERSVIEW
+--------------------------------------------------------
+
+  CREATE OR REPLACE FORCE EDITIONABLE VIEW "USER10"."ORDERSVIEW" ("CUSTOMER_ID", "ORDER_DATE") AS 
+  (
+    select c.customer_id, o.order_date
+    from ot.customers c
+        join ot.orders o on c.customer_id = o.customer_id
+    where o.status <> 'Canceled'
+)
+;
+--------------------------------------------------------
+--  DDL for View ORDERSVIEW1
+--------------------------------------------------------
+
+  CREATE OR REPLACE FORCE EDITIONABLE VIEW "USER10"."ORDERSVIEW1" ("CUSTOMER_ID", "ORDER_DATE") AS 
+  (
+    select c.customer_id, o.order_date
+    from ot.customers c 
+    join ot.orders o on c.customer_id = o.customer_id
+    where o.status <> 'Canceled'
+)
+;
+--------------------------------------------------------
+--  DDL for View RD
+--------------------------------------------------------
+
+  CREATE OR REPLACE FORCE EDITIONABLE VIEW "USER10"."RD" ("FIRST_NAME", "LAST_NAME", "HIRE_DATE", "D") AS 
+  SELECT FIRST_NAME, LAST_NAME, hire_date, SYSDATE - HIRE_DATE D
+FROM OT.EMPLOYEES
+;
+--------------------------------------------------------
+--  DDL for View SEP_VIEW
+--------------------------------------------------------
+
+  CREATE OR REPLACE FORCE EDITIONABLE VIEW "USER10"."SEP_VIEW" ("CATEGORY_NAME", "SEPTEMBERTOTALSALES") AS 
+  (
+        select category_name, sum(sales) septembertotalsales
+        from(
+        select 
+            pc.category_id
+            , pc.category_name
+            , (oi.quantity * oi.unit_price) sales
+            , o.order_date
+        from ot.product_categories pc
+        join ot.products p on pc.category_id = p.category_id
+        join ot.order_items oi on oi.product_id = p.product_id 
+        join ot.orders o on o.order_id = oi.order_id
+        where o.order_date between '1-SEP-16' and '30-SEP-16'
+        )
+        group by category_name
+)
+;
+--------------------------------------------------------
+--  DDL for View SUPERVIEW
+--------------------------------------------------------
+
+  CREATE OR REPLACE FORCE EDITIONABLE VIEW "USER10"."SUPERVIEW" ("PRODUCT_ID", "PRODUCT_NAME", "YEAR", "TOTAL", "DRN") AS 
+  (
+    SELECT product_id, product_name, year, total, 
+    DENSE_RANK() OVER (ORDER BY year) drn
+    FROM
+    (
+        SELECT 
+            p.product_id
+            , p.product_name
+            , EXTRACT(year FROM o.order_date) year
+            , SUM(i.quantity * i.unit_price) total
+        FROM ot.products p
+        JOIN ot.order_items i ON i.product_id = p.product_id
+        JOIN ot.orders o ON o.order_id = i.order_id
+        GROUP BY p.product_id, p.product_name, EXTRACT(year FROM o.order_date)
+        ORDER BY year, total DESC
+    )
+)
+;
+--------------------------------------------------------
+--  DDL for View WAREHOUSE_VW
+--------------------------------------------------------
+
+  CREATE OR REPLACE FORCE EDITIONABLE VIEW "USER10"."WAREHOUSE_VW" ("LOCATION_ID", "WAREHOUSE_NAME", "WAREHOUSE_ID", "ADDRESS", "POSTAL_CODE", "CITY", "STATE", "COUNTRY_ID", "REGION_ID", "REGION_NAME") AS 
+  (
+SELECT w.location_id, w.warehouse_name, w.warehouse_id, l.address, l.postal_code, l.city, l.state, l.country_id, c.region_id, r.region_name
+FROM ot.warehouses w
+JOIN ot.locations l
+ON w.location_id = l.location_id
+JOIN ot.countries c
+ON l.country_id =c.country_id
+JOIN ot.regions r
+on c.region_id = r.region_id
+)
+;
+--------------------------------------------------------
+--  DDL for View YEARS_WORKED
+--------------------------------------------------------
+
+  CREATE OR REPLACE FORCE EDITIONABLE VIEW "USER10"."YEARS_WORKED" ("FIRST_NAME", "LAST_NAME", "HIRE_DATE") AS 
+  SELECT first_name, last_name, hire_date
+FROM OT.EMPLOYEES
+;
+REM INSERTING into USER10.COLLECTIONS
+SET DEFINE OFF;
+REM INSERTING into USER10.DEBS_NEW_TABLE
+SET DEFINE OFF;
+REM INSERTING into USER10.DEBS_TABLE
+SET DEFINE OFF;
+Insert into USER10.DEBS_TABLE (A,B,C) values (1,to_date('01-JAN-16','DD-MON-RR'),32);
+REM INSERTING into USER10.DEBS_TABLE_2
+SET DEFINE OFF;
+Insert into USER10.DEBS_TABLE_2 (A,B,C) values (1,'coffee',to_date('21-JUN-19','DD-MON-RR'));
+Insert into USER10.DEBS_TABLE_2 (A,B,C) values (2,'tea',to_date('20-JUN-19','DD-MON-RR'));
+Insert into USER10.DEBS_TABLE_2 (A,B,C) values (3,'water',to_date('19-JUN-19','DD-MON-RR'));
+Insert into USER10.DEBS_TABLE_2 (A,B,C) values (4,'juice',to_date('21-JUN-19','DD-MON-RR'));
+Insert into USER10.DEBS_TABLE_2 (A,B,C) values (5,'milk',to_date('21-JUN-18','DD-MON-RR'));
+REM INSERTING into USER10.DEBS_TABLE_DEFINITIONS
+SET DEFINE OFF;
+Insert into USER10.DEBS_TABLE_DEFINITIONS (DEF_ID,WORD_ID,WORD_DEF) values (1,3,'highly recommended');
+Insert into USER10.DEBS_TABLE_DEFINITIONS (DEF_ID,WORD_ID,WORD_DEF) values (2,2,'essential for life');
+Insert into USER10.DEBS_TABLE_DEFINITIONS (DEF_ID,WORD_ID,WORD_DEF) values (3,2,'delicious');
+Insert into USER10.DEBS_TABLE_DEFINITIONS (DEF_ID,WORD_ID,WORD_DEF) values (4,1,'checkmate');
+Insert into USER10.DEBS_TABLE_DEFINITIONS (DEF_ID,WORD_ID,WORD_DEF) values (5,5,'easy as');
+Insert into USER10.DEBS_TABLE_DEFINITIONS (DEF_ID,WORD_ID,WORD_DEF) values (6,6,'piece of');
+REM INSERTING into USER10.DEBS_TABLE_NAME
+SET DEFINE OFF;
+Insert into USER10.DEBS_TABLE_NAME (A,B,V,D) values (0.337,'A',to_date('01-JAN-10','DD-MON-RR'),'A');
+Insert into USER10.DEBS_TABLE_NAME (A,B,V,D) values (33.3,'B',to_date('01-JAN-10','DD-MON-RR'),'B');
+REM INSERTING into USER10.DEBS_TABLE_PORT
+SET DEFINE OFF;
+REM INSERTING into USER10.DEBS_TABLE_WORDS
+SET DEFINE OFF;
+Insert into USER10.DEBS_TABLE_WORDS (WORD_ID,WORD_NAME) values (1,'chess');
+Insert into USER10.DEBS_TABLE_WORDS (WORD_ID,WORD_NAME) values (2,'coffee');
+Insert into USER10.DEBS_TABLE_WORDS (WORD_ID,WORD_NAME) values (3,'sleep');
+Insert into USER10.DEBS_TABLE_WORDS (WORD_ID,WORD_NAME) values (5,'pie');
+Insert into USER10.DEBS_TABLE_WORDS (WORD_ID,WORD_NAME) values (6,'cake');
+REM INSERTING into USER10.DUCKS
+SET DEFINE OFF;
+REM INSERTING into USER10.DUPLICATE
+SET DEFINE OFF;
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (105,1,'Pending',54,to_date('17-NOV-16','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (44,2,'Pending',55,to_date('20-FEB-17','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (101,3,'Pending',55,to_date('03-JAN-17','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (1,4,'Pending',56,to_date('15-OCT-17','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (5,5,'Canceled',56,to_date('09-APR-17','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (28,6,'Canceled',57,to_date('15-AUG-17','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (87,7,'Canceled',57,to_date('01-DEC-16','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (4,8,'Shipped',59,to_date('09-APR-15','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (41,9,'Shipped',59,to_date('11-MAY-17','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (82,44,'Shipped',60,to_date('03-DEC-16','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (102,45,'Shipped',61,to_date('20-DEC-16','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (26,46,'Shipped',62,to_date('16-AUG-16','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (43,47,'Shipped',62,to_date('02-MAY-15','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (53,48,'Shipped',62,to_date('29-SEP-16','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (81,49,'Shipped',62,to_date('13-DEC-16','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (83,16,'Shipped',62,to_date('02-DEC-16','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (93,17,'Shipped',62,to_date('27-OCT-16','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (94,1,'Shipped',62,to_date('27-OCT-17','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (79,2,'Shipped',64,to_date('14-DEC-16','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (80,3,'Shipped',64,to_date('13-DEC-16','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (2,4,'Shipped',null,to_date('26-APR-15','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (3,5,'Shipped',null,to_date('26-APR-17','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (6,6,'Shipped',null,to_date('09-APR-15','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (7,7,'Shipped',null,to_date('15-FEB-17','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (8,8,'Shipped',null,to_date('14-FEB-17','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (9,9,'Shipped',null,to_date('14-FEB-17','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (10,44,'Pending',null,to_date('24-JAN-17','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (11,45,'Shipped',null,to_date('29-NOV-16','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (12,46,'Shipped',null,to_date('29-NOV-16','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (13,47,'Shipped',null,to_date('29-NOV-16','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (14,48,'Shipped',null,to_date('28-SEP-17','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (15,49,'Shipped',null,to_date('27-SEP-17','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (16,16,'Pending',null,to_date('27-SEP-16','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (17,17,'Shipped',null,to_date('27-SEP-17','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (18,18,'Shipped',null,to_date('16-AUG-16','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (19,19,'Shipped',null,to_date('27-MAY-16','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (20,20,'Shipped',null,to_date('27-MAY-17','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (21,21,'Pending',null,to_date('27-MAY-17','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (22,22,'Canceled',null,to_date('26-MAY-16','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (23,23,'Shipped',null,to_date('07-SEP-16','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (24,41,'Shipped',null,to_date('07-SEP-16','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (25,42,'Shipped',null,to_date('24-AUG-16','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (27,43,'Canceled',null,to_date('16-AUG-16','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (29,44,'Shipped',null,to_date('14-AUG-17','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (30,45,'Shipped',null,to_date('12-AUG-17','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (31,46,'Canceled',null,to_date('12-AUG-17','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (32,47,'Shipped',null,to_date('09-MAR-17','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (33,48,'Shipped',null,to_date('07-MAR-17','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (34,49,'Shipped',null,to_date('12-JUN-16','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (35,50,'Shipped',null,to_date('05-SEP-16','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (36,51,'Shipped',null,to_date('05-SEP-17','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (37,52,'Shipped',null,to_date('19-FEB-17','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (38,53,'Canceled',57,to_date('31-MAY-15','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (39,54,'Shipped',62,to_date('22-OCT-16','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (40,55,'Shipped',62,to_date('11-MAY-17','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (42,56,'Canceled',64,to_date('03-MAY-15','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (45,57,'Shipped',64,to_date('20-FEB-17','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (46,58,'Pending',62,to_date('20-FEB-17','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (47,59,'Canceled',62,to_date('10-OCT-16','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (48,60,'Canceled',64,to_date('10-OCT-16','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (49,61,'Shipped',55,to_date('02-OCT-16','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (50,62,'Pending',55,to_date('02-OCT-16','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (51,63,'Shipped',59,to_date('02-OCT-16','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (52,64,'Shipped',60,to_date('02-OCT-16','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (54,65,'Shipped',56,to_date('29-SEP-16','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (55,66,'Pending',59,to_date('29-SEP-16','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (56,67,'Canceled',55,to_date('29-SEP-16','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (57,68,'Shipped',57,to_date('24-AUG-17','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (58,69,'Shipped',57,to_date('24-AUG-16','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (59,70,'Shipped',59,to_date('29-JUN-15','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (60,1,'Shipped',62,to_date('30-JUN-17','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (61,2,'Shipped',54,to_date('30-JUN-16','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (62,3,'Shipped',62,to_date('30-JUN-15','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (63,4,'Shipped',61,to_date('30-JUN-16','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (64,5,'Shipped',64,to_date('21-JUN-16','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (65,6,'Shipped',64,to_date('21-JUN-13','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (66,7,'Canceled',61,to_date('21-JUN-16','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (67,8,'Canceled',61,to_date('14-JUN-16','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (68,9,'Pending',null,to_date('13-JUN-16','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (69,44,'Canceled',54,to_date('17-MAR-17','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (70,45,'Canceled',61,to_date('21-FEB-17','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (71,46,'Shipped',54,to_date('21-FEB-17','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (72,47,'Shipped',64,to_date('17-FEB-16','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (73,48,'Shipped',null,to_date('17-FEB-16','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (74,49,'Shipped',64,to_date('10-FEB-17','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (75,16,'Shipped',null,to_date('10-FEB-17','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (76,17,'Shipped',55,to_date('10-FEB-17','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (77,1,'Shipped',60,to_date('02-JAN-17','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (78,2,'Pending',64,to_date('14-DEC-15','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (84,3,'Shipped',64,to_date('01-DEC-15','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (85,4,'Pending',55,to_date('01-DEC-16','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (86,5,'Pending',60,to_date('30-NOV-16','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (88,6,'Shipped',61,to_date('01-NOV-17','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (89,7,'Shipped',55,to_date('27-OCT-15','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (90,8,'Pending',55,to_date('28-OCT-15','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (91,9,'Pending',56,to_date('28-OCT-16','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (92,44,'Shipped',59,to_date('28-OCT-15','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (95,45,'Shipped',59,to_date('19-SEP-16','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (96,46,'Shipped',56,to_date('14-SEP-16','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (97,47,'Canceled',60,to_date('12-JUL-16','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (98,48,'Shipped',55,to_date('18-MAR-17','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (99,49,'Shipped',60,to_date('07-JAN-17','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (100,16,'Pending',54,to_date('05-JAN-17','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (103,17,'Pending',64,to_date('08-FEB-16','DD-MON-RR'));
+Insert into USER10.DUPLICATE (ORDER_ID,CUSTOMER_ID,STATUS,SALESMAN_ID,ORDER_DATE) values (104,18,'Shipped',60,to_date('01-FEB-17','DD-MON-RR'));
+REM INSERTING into USER10.NEW_INVENTORIES
+SET DEFINE OFF;
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (103,4,97);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (105,4,97);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (106,4,97);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (107,4,97);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (108,4,98);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (109,4,98);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (110,4,98);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (114,4,99);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (115,4,100);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (116,4,100);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (117,4,101);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (119,4,102);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (120,4,102);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (121,4,102);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (122,4,102);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (123,4,103);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (124,4,103);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (125,4,103);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (126,4,103);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (128,4,103);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (129,4,104);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (132,4,104);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (133,4,104);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (136,4,105);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (138,4,107);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (142,4,110);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (161,4,96);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (166,4,114);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (174,4,134);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (175,4,134);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (182,4,210);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (184,4,211);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (185,4,211);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (188,4,219);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (189,4,219);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (190,4,223);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (191,4,223);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (193,4,223);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (195,4,224);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (196,4,225);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (198,4,225);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (199,4,226);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (200,4,226);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (201,4,227);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (203,4,227);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (204,4,227);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (205,4,228);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (207,4,169);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (210,4,170);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (211,4,171);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (212,4,171);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (214,4,172);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (216,4,173);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (218,4,174);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (220,4,234);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (221,4,235);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (222,4,235);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (223,4,236);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (245,4,185);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (269,4,266);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (270,4,266);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (271,4,271);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (272,4,272);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (274,4,208);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (276,4,275);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (277,4,275);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (278,4,276);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (281,4,215);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (283,4,282);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (2,5,71);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (3,5,46);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (4,5,46);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (5,5,47);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (6,5,47);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (11,5,48);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (12,5,48);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (22,5,73);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (23,5,74);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (24,5,74);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (25,5,74);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (26,5,74);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (33,5,77);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (35,5,77);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (36,5,78);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (37,5,78);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (38,5,78);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (39,5,78);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (40,5,78);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (41,5,79);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (42,5,81);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (43,5,81);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (44,5,82);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (46,5,90);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (47,5,44);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (50,5,69);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (80,5,77);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (87,5,83);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (88,5,62);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (89,5,63);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (90,5,63);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (91,5,70);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (94,5,85);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (98,5,86);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (99,5,88);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (100,5,88);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (102,5,90);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (103,5,73);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (104,5,84);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (105,5,74);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (108,5,74);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (110,5,75);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (114,5,76);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (123,5,79);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (130,5,42);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (131,5,42);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (132,5,81);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (133,5,81);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (134,5,42);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (135,5,43);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (139,5,47);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (140,5,47);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (142,5,87);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (144,5,49);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (145,5,49);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (146,5,50);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (147,5,50);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (148,5,50);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (149,5,50);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (150,5,54);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (151,5,54);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (152,5,54);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (159,5,63);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (160,5,69);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (161,5,84);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (163,5,83);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (168,5,92);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (174,5,122);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (175,5,122);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (182,5,184);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (184,5,184);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (185,5,185);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (207,5,157);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (216,5,161);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (220,5,208);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (221,5,209);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (222,5,209);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (223,5,209);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (229,5,163);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (230,5,163);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (231,5,163);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (232,5,163);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (233,5,164);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (234,5,164);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (235,5,164);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (236,5,164);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (237,5,164);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (238,5,165);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (239,5,165);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (241,5,157);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (242,5,157);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (243,5,157);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (245,5,173);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (254,5,175);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (255,5,175);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (256,5,175);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (257,5,176);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (258,5,176);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (259,5,176);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (260,5,176);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (261,5,176);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (262,5,177);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (263,5,177);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (264,5,177);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (265,5,177);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (269,5,237);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (270,5,237);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (273,5,199);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (279,5,193);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (280,5,194);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (281,5,203);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (284,5,220);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (285,5,216);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (286,5,216);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (2,6,58);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (3,6,29);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (4,6,30);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (5,6,30);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (6,6,30);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (7,6,30);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (8,6,30);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (9,6,31);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (11,6,31);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (12,6,32);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (13,6,32);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (14,6,32);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (15,6,33);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (17,6,34);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (18,6,35);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (19,6,35);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (20,6,35);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (21,6,36);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (22,6,62);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (23,6,62);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (24,6,62);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (25,6,62);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (26,6,63);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (27,6,37);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (29,6,38);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (30,6,38);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (31,6,39);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (32,6,39);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (33,6,65);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (34,6,39);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (35,6,66);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (36,6,66);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (37,6,66);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (38,6,66);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (39,6,66);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (40,6,67);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (41,6,67);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (42,6,69);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (43,6,69);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (44,6,70);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (46,6,29);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (47,6,33);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (50,6,84);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (54,6,66);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (56,6,58);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (57,6,66);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (62,6,30);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (63,6,30);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (67,6,34);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (68,6,35);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (69,6,35);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (70,6,35);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (71,6,35);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (72,6,35);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (73,6,63);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (74,6,63);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (76,6,64);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (78,6,65);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (79,6,65);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (80,6,65);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (84,6,69);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (87,6,71);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (88,6,44);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (89,6,45);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (90,6,45);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (91,6,58);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (94,6,71);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (95,6,60);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (96,6,60);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (98,6,72);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (99,6,73);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (100,6,74);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (101,6,51);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (102,6,76);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (103,6,53);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (104,6,71);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (105,6,53);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (106,6,53);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (107,6,53);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (108,6,54);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (109,6,54);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (110,6,54);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (114,6,55);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (115,6,56);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (116,6,56);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (117,6,57);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (119,6,58);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (120,6,58);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (121,6,58);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (122,6,58);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (123,6,59);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (124,6,59);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (125,6,59);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (126,6,59);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (128,6,59);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (129,6,60);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (130,6,78);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (131,6,29);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (132,6,60);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (133,6,60);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (134,6,29);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (135,6,29);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (136,6,61);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (137,6,65);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (138,6,66);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (139,6,34);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (140,6,34);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (141,6,68);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (142,6,69);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (144,6,36);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (145,6,36);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (146,6,37);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (147,6,37);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (148,6,37);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (149,6,37);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (150,6,41);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (151,6,41);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (152,6,41);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (157,6,42);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (159,6,51);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (160,6,57);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (161,6,72);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (163,6,71);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (166,6,90);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (168,6,80);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (170,6,81);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (172,6,85);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (173,6,94);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (174,6,110);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (175,6,110);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (182,6,163);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (184,6,164);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (185,6,164);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (188,6,172);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (189,6,172);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (190,6,173);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (191,6,173);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (193,6,174);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (195,6,175);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (196,6,175);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (198,6,176);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (199,6,176);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (200,6,177);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (201,6,177);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (203,6,177);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (204,6,178);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (205,6,178);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (207,6,145);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (210,6,146);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (211,6,147);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (212,6,147);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (214,6,148);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (216,6,149);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (217,6,149);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (218,6,150);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (220,6,185);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (221,6,185);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (222,6,186);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (223,6,186);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (227,6,141);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (228,6,141);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (229,6,149);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (230,6,149);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (231,6,150);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (232,6,150);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (233,6,150);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (234,6,150);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (235,6,150);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (236,6,151);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (237,6,151);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (238,6,151);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (239,6,151);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (241,6,145);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (242,6,145);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (243,6,145);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (245,6,161);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (247,6,148);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (251,6,150);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (254,6,161);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (255,6,162);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (256,6,162);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (257,6,162);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (258,6,162);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (259,6,162);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (260,6,163);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (261,6,163);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (262,6,163);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (263,6,163);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (264,6,163);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (265,6,164);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (269,6,214);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (270,6,214);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (271,6,221);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (272,6,222);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (273,6,184);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (274,6,184);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (276,6,225);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (277,6,225);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (278,6,226);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (279,6,180);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (280,6,180);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (281,6,191);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (283,6,232);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (284,6,320);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (285,6,202);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (286,6,203);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (287,6,212);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (288,6,213);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (2,7,46);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (3,7,63);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (4,7,63);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (5,7,63);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (6,7,63);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (11,7,65);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (12,7,65);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (22,7,50);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (23,7,50);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (24,7,50);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (25,7,51);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (26,7,51);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (33,7,53);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (35,7,54);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (36,7,54);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (37,7,55);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (38,7,55);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (39,7,55);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (40,7,55);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (41,7,55);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (42,7,57);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (43,7,58);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (44,7,58);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (46,7,18);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (47,7,22);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (50,7,58);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (80,7,53);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (87,7,59);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (88,7,27);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (89,7,27);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (90,7,27);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (91,7,46);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (94,7,57);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (98,7,58);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (99,7,60);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (100,7,60);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (102,7,62);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (103,7,35);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (104,7,58);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (105,7,35);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (108,7,36);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (110,7,36);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (114,7,37);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (123,7,41);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (130,7,66);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (131,7,66);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (132,7,45);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (133,7,45);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (134,7,17);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (135,7,17);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (139,7,21);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (140,7,21);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (142,7,51);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (144,7,23);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (145,7,23);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (146,7,24);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (147,7,24);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (148,7,24);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (149,7,24);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (150,7,28);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (151,7,28);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (152,7,28);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (159,7,39);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (160,7,45);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (161,7,60);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (163,7,59);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (168,7,68);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (174,7,98);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (175,7,98);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (182,7,143);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (184,7,143);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (185,7,144);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (207,7,133);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (216,7,137);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (220,7,167);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (221,7,168);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (222,7,168);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (223,7,168);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (229,7,136);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (230,7,136);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (231,7,136);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (232,7,137);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (233,7,137);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (234,7,137);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (235,7,137);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (241,7,133);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (242,7,133);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (243,7,133);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (245,7,149);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (254,7,148);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (255,7,148);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (256,7,149);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (257,7,149);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (258,7,149);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (259,7,149);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (260,7,149);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (263,7,150);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (264,7,150);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (269,7,196);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (270,7,196);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (273,7,170);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (280,7,167);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (281,7,179);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (284,7,294);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (285,7,189);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (286,7,189);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (2,8,34);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (3,8,49);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (4,8,49);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (5,8,49);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (6,8,50);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (7,8,50);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (8,8,50);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (9,8,50);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (11,8,51);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (12,8,51);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (13,8,51);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (14,8,51);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (15,8,52);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (17,8,54);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (18,8,54);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (19,8,54);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (20,8,5);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (21,8,5);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (22,8,38);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (23,8,39);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (24,8,39);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (25,8,39);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (26,8,39);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (27,8,6);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (29,8,7);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (30,8,7);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (31,8,8);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (32,8,8);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (33,8,42);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (34,8,9);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (35,8,42);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (36,8,43);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (37,8,43);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (38,8,43);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (39,8,43);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (40,8,44);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (41,8,44);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (42,8,46);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (43,8,46);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (44,8,47);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (46,8,7);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (47,8,11);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (50,8,32);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (54,8,44);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (62,8,47);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (63,8,47);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (67,8,49);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (68,8,49);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (69,8,50);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (70,8,50);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (71,8,50);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (72,8,50);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (73,8,39);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (74,8,39);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (76,8,40);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (78,8,41);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (79,8,41);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (80,8,41);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (84,8,45);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (87,8,47);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (88,8,12);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (89,8,12);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (90,8,13);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (91,8,34);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (94,8,44);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (98,8,45);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (99,8,47);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (100,8,47);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (101,8,18);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (102,8,49);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (103,8,20);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (104,8,46);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (105,8,20);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (106,8,21);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (107,8,21);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (108,8,21);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (109,8,21);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (110,8,22);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (114,8,23);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (115,8,24);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (116,8,24);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (117,8,24);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (119,8,25);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (120,8,25);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (121,8,25);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (122,8,26);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (123,8,26);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (124,8,26);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (125,8,26);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (126,8,26);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (128,8,27);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (129,8,27);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (130,8,53);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (131,8,53);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (132,8,28);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (133,8,28);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (134,8,54);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (135,8,54);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (136,8,28);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (137,8,29);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (138,8,31);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (139,8,8);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (140,8,9);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (141,8,33);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (142,8,34);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (144,8,10);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (145,8,11);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (146,8,11);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (147,8,11);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (148,8,12);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (149,8,12);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (150,8,15);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (151,8,15);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (152,8,15);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (159,8,27);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (160,8,33);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (161,8,48);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (163,8,47);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (166,8,66);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (168,8,56);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (174,8,86);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (175,8,86);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (182,8,128);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (184,8,128);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (185,8,129);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (188,8,137);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (189,8,137);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (190,8,137);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (191,8,138);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (193,8,138);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (195,8,139);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (196,8,139);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (198,8,140);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (199,8,141);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (200,8,141);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (201,8,142);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (203,8,142);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (204,8,142);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (205,8,142);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (207,8,121);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (210,8,122);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (211,8,123);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (212,8,123);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (214,8,124);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (216,8,125);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (217,8,125);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (218,8,126);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (220,8,149);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (221,8,150);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (222,8,150);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (223,8,151);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (229,8,123);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (230,8,124);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (231,8,124);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (232,8,124);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (233,8,124);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (234,8,124);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (235,8,125);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (241,8,121);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (242,8,121);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (243,8,121);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (245,8,137);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (254,8,136);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (255,8,136);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (256,8,136);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (257,8,136);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (258,8,136);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (259,8,137);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (260,8,137);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (263,8,137);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (264,8,137);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (269,8,178);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (270,8,178);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (271,8,183);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (272,8,184);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (273,8,156);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (274,8,160);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (276,8,187);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (277,8,187);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (278,8,188);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (280,8,154);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (281,8,167);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (283,8,194);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (284,8,268);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (285,8,176);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (286,8,177);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (2,9,23);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (3,9,35);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (4,9,35);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (5,9,36);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (6,9,36);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (7,9,36);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (8,9,36);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (9,9,36);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (11,9,37);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (12,9,37);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (13,9,37);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (14,9,38);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (15,9,41);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (17,9,3);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (18,9,3);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (19,9,3);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (20,9,4);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (21,9,4);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (27,9,5);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (29,9,6);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (30,9,6);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (31,9,7);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (32,9,7);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (34,9,8);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (46,9,6);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (47,9,0);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (54,9,33);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (62,9,32);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (63,9,33);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (67,9,34);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (68,9,34);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (69,9,35);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (70,9,35);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (71,9,35);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (72,9,35);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (73,9,27);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (74,9,27);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (76,9,28);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (78,9,29);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (79,9,29);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (80,9,29);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (84,9,33);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (87,9,35);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (88,9,7);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (89,9,8);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (90,9,8);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (91,9,22);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (98,9,32);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (101,9,3);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (102,9,36);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (103,9,5);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (105,9,6);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (106,9,6);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (107,9,6);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (108,9,6);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (109,9,6);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (110,9,7);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (114,9,8);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (115,9,9);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (116,9,9);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (117,9,9);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (119,9,10);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (120,9,10);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (121,9,10);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (122,9,11);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (123,9,11);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (124,9,11);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (125,9,11);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (126,9,12);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (128,9,12);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (129,9,12);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (132,9,13);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (133,9,13);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (136,9,14);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (137,9,15);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (138,9,16);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (141,9,18);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (142,9,19);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (159,9,15);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (160,9,21);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (161,9,36);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (163,9,35);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (166,9,54);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (174,9,74);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (175,9,74);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (182,9,110);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (184,9,111);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (185,9,111);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (188,9,119);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (189,9,119);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (190,9,120);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (191,9,120);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (193,9,121);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (195,9,122);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (196,9,122);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (198,9,122);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (199,9,123);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (200,9,123);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (201,9,124);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (203,9,124);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (204,9,125);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (205,9,125);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (207,9,109);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (210,9,110);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (211,9,111);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (212,9,111);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (214,9,112);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (216,9,113);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (217,9,113);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (218,9,114);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (220,9,134);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (221,9,135);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (222,9,135);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (223,9,136);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (241,9,109);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (242,9,109);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (243,9,109);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (245,9,125);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (269,9,161);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (270,9,161);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (271,9,165);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (272,9,166);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (274,9,148);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (276,9,169);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (277,9,169);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (278,9,170);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (281,9,155);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (283,9,179);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (3,1,106);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (4,1,106);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (5,1,106);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (6,1,107);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (11,1,108);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (12,1,108);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (80,1,125);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (87,1,131);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (88,1,117);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (89,1,118);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (90,1,118);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (103,1,125);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (105,1,126);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (108,1,126);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (110,1,127);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (114,1,128);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (123,1,131);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (132,1,133);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (133,1,133);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (142,1,89);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (161,1,132);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (174,1,170);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (175,1,170);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (182,1,175);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (184,1,175);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (185,1,176);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (207,1,205);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (216,1,209);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (220,1,196);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (221,1,197);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (222,1,197);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (223,1,197);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (245,1,221);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (269,1,222);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (270,1,222);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (281,1,251);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (3,2,96);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (4,2,96);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (5,2,96);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (6,2,96);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (7,2,97);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (8,2,97);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (9,2,97);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (11,2,98);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (12,2,98);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (13,2,98);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (14,2,98);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (15,2,99);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (17,2,100);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (18,2,101);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (19,2,101);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (20,2,104);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (21,2,105);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (22,2,114);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (23,2,114);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (24,2,115);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (25,2,115);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (26,2,115);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (27,2,106);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (29,2,107);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (30,2,107);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (33,2,117);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (35,2,118);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (36,2,118);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (37,2,119);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (38,2,119);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (39,2,119);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (40,2,119);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (41,2,119);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (42,2,122);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (43,2,122);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (44,2,122);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (50,2,117);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (54,2,110);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (62,2,149);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (63,2,149);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (67,2,154);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (68,2,154);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (69,2,154);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (70,2,155);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (71,2,155);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (72,2,155);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (73,2,111);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (74,2,111);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (76,2,112);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (78,2,113);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (79,2,113);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (80,2,113);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (87,2,119);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (88,2,167);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (89,2,167);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (90,2,167);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (94,2,91);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (99,2,94);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (100,2,94);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (101,2,173);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (103,2,178);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (104,2,81);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (105,2,178);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (106,2,178);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (107,2,178);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (108,2,179);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (109,2,179);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (110,2,179);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (114,2,180);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (115,2,181);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (116,2,182);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (117,2,182);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (119,2,183);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (120,2,183);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (121,2,183);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (122,2,183);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (123,2,184);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (124,2,184);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (125,2,184);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (126,2,184);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (128,2,185);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (129,2,185);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (130,2,88);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (131,2,88);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (132,2,185);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (133,2,185);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (134,2,89);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (135,2,89);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (136,2,186);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (138,2,191);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (139,2,93);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (140,2,94);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (142,2,194);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (144,2,95);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (145,2,96);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (146,2,96);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (147,2,96);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (148,2,97);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (149,2,97);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (150,2,101);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (151,2,101);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (152,2,101);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (161,2,120);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (166,2,138);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (168,2,128);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (174,2,158);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (175,2,158);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (182,2,177);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (184,2,178);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (185,2,178);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (188,2,171);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (189,2,172);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (190,2,172);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (191,2,173);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (193,2,173);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (195,2,174);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (196,2,174);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (198,2,175);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (199,2,176);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (200,2,176);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (201,2,176);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (203,2,177);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (204,2,177);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (205,2,177);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (207,2,193);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (210,2,194);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (211,2,195);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (212,2,195);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (214,2,196);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (216,2,197);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (218,2,198);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (220,2,184);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (221,2,185);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (222,2,185);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (223,2,185);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (227,2,189);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (228,2,189);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (229,2,212);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (230,2,213);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (231,2,213);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (232,2,213);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (233,2,213);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (234,2,213);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (235,2,214);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (236,2,214);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (237,2,214);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (238,2,214);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (239,2,214);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (245,2,209);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (254,2,225);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (255,2,225);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (256,2,225);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (257,2,226);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (258,2,226);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (259,2,226);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (260,2,226);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (261,2,226);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (262,2,227);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (263,2,227);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (264,2,227);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (265,2,227);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (269,2,210);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (270,2,210);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (271,2,215);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (272,2,216);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (273,2,264);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (274,2,232);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (276,2,219);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (277,2,219);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (278,2,220);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (279,2,244);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (280,2,244);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (281,2,239);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (283,2,226);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (284,2,353);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (285,2,267);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (286,2,267);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (2,3,100);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (3,3,88);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (4,3,88);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (5,3,89);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (6,3,89);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (11,3,90);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (12,3,90);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (46,3,112);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (47,3,66);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (80,3,101);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (87,3,107);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (88,3,118);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (89,3,118);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (90,3,118);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (91,3,94);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (98,3,69);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (102,3,73);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (103,3,126);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (105,3,126);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (108,3,127);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (110,3,127);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (114,3,131);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (123,3,135);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (132,3,136);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (133,3,136);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (142,3,142);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (159,3,87);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (160,3,93);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (161,3,108);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (163,3,107);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (174,3,146);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (175,3,146);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (182,3,245);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (184,3,246);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (185,3,246);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (207,3,181);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (216,3,185);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (220,3,272);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (221,3,273);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (222,3,273);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (223,3,273);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (241,3,181);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (242,3,181);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (243,3,181);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (245,3,197);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (269,3,304);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (270,3,304);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (281,3,227);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (3,4,63);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (4,4,63);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (5,4,63);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (6,4,64);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (7,4,64);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (8,4,67);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (9,4,67);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (11,4,68);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (12,4,68);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (13,4,68);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (14,4,68);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (15,4,69);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (17,4,70);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (18,4,71);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (19,4,71);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (20,4,71);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (21,4,72);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (27,4,73);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (29,4,74);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (30,4,74);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (54,4,88);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (62,4,74);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (63,4,74);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (67,4,76);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (68,4,76);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (69,4,76);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (70,4,76);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (71,4,76);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (72,4,77);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (73,4,87);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (74,4,87);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (76,4,88);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (78,4,89);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (79,4,89);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (80,4,89);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (87,4,95);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (88,4,86);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (89,4,86);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (90,4,86);
+Insert into USER10.NEW_INVENTORIES (PRODUCT_ID,WAREHOUSE_ID,QUANTITY) values (101,4,95);
+REM INSERTING into USER10.NEW_TABLE
+SET DEFINE OFF;
+Insert into USER10.NEW_TABLE (A) values (3);
+REM INSERTING into USER10.PRODUCT_NAMES_WITH_CATEGORIES
+SET DEFINE OFF;
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Intel Xeon E5-1650 V4','CPU');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Intel Xeon E5-1650 V4 (OEM/Tray)','CPU');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Intel Xeon E5-2630 V3 (OEM/Tray)','CPU');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Intel Xeon E5-2630 V2','CPU');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Intel Xeon E5-1650 V3','CPU');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Intel Core i7-5930K','CPU');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Intel Xeon E5-2699 V3 (OEM/Tray)','CPU');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Intel Xeon E5-2697 V3','CPU');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Intel Xeon E5-2698 V3 (OEM/Tray)','CPU');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Intel Xeon E5-2697 V4','CPU');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Intel Xeon E5-2685 V3 (OEM/Tray)','CPU');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Intel Xeon E5-2695 V3 (OEM/Tray)','CPU');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Intel Xeon E5-2697 V2','CPU');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Intel Xeon E5-2695 V4','CPU');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Intel Xeon E5-2695 V2','CPU');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Intel Xeon E5-2643 V2 (OEM/Tray)','CPU');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Intel Xeon E5-2690 (OEM/Tray)','CPU');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Intel Xeon E5-2687W V3','CPU');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Intel Xeon E5-2687W V4','CPU');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Intel Xeon E5-2667 V3 (OEM/Tray)','CPU');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Intel Xeon E5-2690 V4','CPU');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Intel Xeon E5-2690 V3','CPU');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Intel Xeon E5-2470V2','CPU');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Intel Xeon E5-2683 V4','CPU');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Intel Xeon E5-2637 V2 (OEM/Tray)','CPU');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Intel Xeon E5-2683 V4 (OEM/Tray)','CPU');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Intel Core i7-4960X Extreme Edition','CPU');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Intel Xeon E5-2699 V4 (OEM/Tray)','CPU');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Intel Xeon E5-1680 V3 (OEM/Tray)','CPU');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Intel Xeon E5-2643 V4 (OEM/Tray)','CPU');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Intel Core i7-6950X (OEM/Tray)','CPU');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Intel Xeon E5-2670 V3','CPU');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Intel Xeon E5-2680','CPU');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Intel Xeon E5-2680 V4','CPU');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Intel Xeon E5-2680 V3 (OEM/Tray)','CPU');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Intel Core i7-6950X','CPU');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Intel Xeon E5-2643 V3 (OEM/Tray)','CPU');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Intel Xeon E5-2660 V4','CPU');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Intel Xeon E5-2660 V3','CPU');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Intel Xeon E5-2660 V3 (OEM/Tray)','CPU');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Intel Xeon E5-2650 V2','CPU');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Intel Xeon E5-2650 V3','CPU');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Intel Core i7-990X Extreme Edition','CPU');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Intel Xeon E5-2650 V4','CPU');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Intel Xeon E5-2650','CPU');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Intel Core i9-7900X','CPU');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Intel Xeon E5-1660 V3 (OEM/Tray)','CPU');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Intel Xeon E5-2650L V3 (OEM/Tray)','CPU');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Intel Core i7-5960X','CPU');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Intel Core 2 Extreme QX6800','CPU');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Intel Core i7-5960X (OEM/Tray)','CPU');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Intel Xeon E5-2650 V3 (OEM/Tray)','CPU');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Intel Xeon E5-2640 V4','CPU');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Intel Xeon E5-2640 V3','CPU');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Intel Core 2 Extreme QX9775','CPU');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Intel Core i7-6900K','CPU');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Intel Core i7-6900K (OEM/Tray)','CPU');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('AMD Opteron 6378','CPU');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Intel Core i7-3960X Extreme Edition','CPU');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Intel Core i7-4770K','CPU');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Intel Xeon E5-2687W','CPU');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Intel Xeon E5-2680 V2','CPU');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Intel Core i7-980','CPU');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Intel Core i7-7820X','CPU');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Intel Core i7-3930K','CPU');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Intel Xeon E5-2630 V4','CPU');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Intel Xeon E5-2630 V3','CPU');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Intel Core i7-4930K','CPU');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Intel Core i7-4790K','CPU');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Intel Xeon E5-2640 V2','CPU');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Asus GTX780TI-3GD5','Video Card');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('MSI GTX 1080 TI LIGHTNING Z','Video Card');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Asus ROG-POSEIDON-GTX1080TI-P11G-GAMING','Video Card');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('MSI GTX 1080 TI LIGHTNING X','Video Card');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Zotac ZT-P10810A-10P','Video Card');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('MSI GAMING','Video Card');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Asus STRIX-GTX1080TI-O11G-GAMING','Video Card');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('PNY VCQP4000-PB','Video Card');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Gigabyte GV-N108TAORUSX W-11GD','Video Card');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Zotac ZT-70203-10P','Video Card');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('EVGA 11G-P4-6598-KR','Video Card');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('MSI GTX 1080 TI SEA HAWK X','Video Card');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Corsair CB-9060011-WW','Video Card');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('MSI GTX 1080 TI AERO 11G OC','Video Card');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('NVIDIA VCQM4000-PB','Video Card');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Gigabyte GV-N108TAORUS X-11GD','Video Card');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Gigabyte GV-N1070WF2OC-8GD','Video Card');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('MSI GeForce GTX 1080 TI ARMOR 11G OC','Video Card');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('EVGA 11G-P4-6696-KR','Video Card');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('MSI GeForce GTX 1080 Ti GAMING X 11G','Video Card');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Zotac ZT-P10810C-10P','Video Card');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Zotac ZT-P10810D-10P','Video Card');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('PNY VCGGTX1080T11XGPB-OC','Video Card');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Zotac ZT-P10810G-10P','Video Card');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Gigabyte GV-N98TWF3OC-6GD','Video Card');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('PNY VCGGTX780T3XPB-OC','Video Card');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('MSI GTX 980 Ti Gaming 6G','Video Card');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Gigabyte GV-N108TAORUS-11GD','Video Card');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('EVGA 06G-P4-4998-KR','Video Card');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('MSI GTX 1080 Ti DUKE 11G OC','Video Card');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('PNY VCQP6000-PB','Video Card');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('PNY VCQM6000-24GB-PB','Video Card');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('PNY VCQM6000-PB','Video Card');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('ATI FirePro W9000','Video Card');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('ATI FirePro S9150','Video Card');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('AMD FirePro W9100','Video Card');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('EVGA 12G-P4-3992-KR','Video Card');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('AMD 100-505989','Video Card');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('PNY VCQK6000-PB','Video Card');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('PNY VCQP5000-PB','Video Card');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('HP C2J95AT','Video Card');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('EVGA 12G-P4-1999-KR','Video Card');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('PNY VCQM5000-PB','Video Card');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('ATI FirePro S9050','Video Card');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('AMD 100-5056062','Video Card');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('PNY VCQK5200-PB','Video Card');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('AMD FirePro S7000','Video Card');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('AMD 100-506061','Video Card');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('ATI FirePro R5000','Video Card');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('PNY VCQK4200-PB','Video Card');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Supermicro X10SDV-8C-TLN4F','Mother Board');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Intel DP35DPM','Mother Board');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Asus X99-E-10G WS','Mother Board');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Asus ROG MAXIMUS IX EXTREME','Mother Board');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Asus RAMPAGE V EXTREME','Mother Board');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Asus Z10PE-D8 WS','Mother Board');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('MSI X99A GODLIKE GAMING CARBON','Mother Board');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Supermicro H8DG6-F','Mother Board');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Asus Rampage V Edition 10','Mother Board');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Gigabyte GA-Z270X-Gaming 9','Mother Board');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Gigabyte X299 AORUS Gaming 9','Mother Board');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('ASRock E3C224D4M-16RE','Mother Board');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Asus PRIME X299-DELUXE','Mother Board');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Asus X99-E WS/USB 3.1','Mother Board');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Supermicro X9SRH-7TF','Mother Board');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Asus Z10PE-D16 WS','Mother Board');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('ASRock X99 Extreme11','Mother Board');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Supermicro MBD-X10DAX','Mother Board');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Asus X99-DELUXE/U3.1','Mother Board');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Supermicro X11SSL-CF','Mother Board');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Asus KGPE-D16','Mother Board');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Asus Z10PE-D16','Mother Board');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('ASRock C2750D4I','Mother Board');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Gigabyte X299 AORUS Gaming 7','Mother Board');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('MSI X99A GODLIKE GAMING','Mother Board');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('MSI X299 GAMING M7 ACK','Mother Board');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Supermicro MBD-X10DRI-O','Mother Board');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Asus MAXIMUS IX FORMULA','Mother Board');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Asus X99-DELUXE II','Mother Board');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('ASRock Fatal1ty X299 Professional Gaming i9','Mother Board');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('ASRock EP2C612 WS','Mother Board');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('ASRock Z270 SuperCarrier','Mother Board');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Asus MAXIMUS VIII EXTREME/ASSEMBLY','Mother Board');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Asus STRIX X299-E GAMING','Mother Board');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Gigabyte X299 AORUS Ultra Gaming','Mother Board');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Asus TUF X299 MARK 1','Mother Board');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Asus Z170-WS','Mother Board');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('MSI X299 GAMING PRO CARBON AC','Mother Board');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('MSI X99A XPOWER GAMING TITANIUM','Mother Board');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Asus ROG STRIX X99 GAMING','Mother Board');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Asus SABERTOOTH X99','Mother Board');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Asus PRIME X299-A','Mother Board');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Gigabyte GA-X99-UD5 WIFI','Mother Board');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('ASRock EP2C602-4L/D16','Mother Board');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('MSI Z170A KRAIT GAMING 3X','Mother Board');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('MSI Z170 Krait Gaming','Mother Board');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('MSI Z170A KRAIT GAMING','Mother Board');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Asus MAXIMUS IX CODE','Mother Board');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Asus Sabertooth 990FX','Mother Board');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('MSI X99A WORKSTATION','Mother Board');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Intel DG43RK','Mother Board');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Asus VANGUARD B85','Mother Board');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('EVGA Z270 Classified K','Mother Board');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('EVGA Classified','Mother Board');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('MSI Z270 XPOWER GAMING TITANIUM','Mother Board');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('ASRock X299 Taichi','Mother Board');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('MSI X299 TOMAHAWK ARCTIC','Mother Board');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Supermicro X10SAT-O','Mother Board');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Gigabyte X299 AORUS Gaming 3','Mother Board');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Supermicro MBD-X10DAL-I-O','Mother Board');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Samsung MZ-V6E250','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Kingston SA400S37/120G','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Samsung MZ-75E1T0B/AM','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Samsung MZ-V6E500','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Seagate ST3000DM008','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Western Digital WDS250G1B0A','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('ADATA ASU800SS-128GT-C','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Seagate ST1000DM010','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Samsung MZ-75E4T0B','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Intel SSDPECME040T401','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Western Digital WD2003FZEX','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Samsung MZ-V6P512BW','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Hitachi HUS724030ALE641','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Samsung MZ-V6P2T0BW','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Seagate ST10000DM0004','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('ADATA ASU800SS-512GT-C','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Samsung MZ-V6E1T0','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Western Digital WD1003FZEX','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('SanDisk SDSSDA-120G-G26','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Crucial CT525MX300SSD1','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Hitachi A7K1000-1000','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Samsung MZ-V6P1T0BW','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Samsung MZ-7KE256BW','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Seagate ST2000DX002','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Western Digital WD5000AACS','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('SanDisk SDSSDHII-240G-G25','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('PNY SSD7CS1311-120-RB','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('PNY SSD9SC240GMDA-RB','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Crucial CT1050MX300SSD1','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Western Digital WDS250G1B0B','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Samsung MZ-75E120B/AM','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Western Digital WDS500G1B0B','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Hitachi HUA723020ALA640','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Western Digital WD2500AVVS','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Seagate ST1000DX002','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Crucial CT275MX300SSD1','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Seagate ST31000340NS - FFP','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Western Digital WD101KRYZ','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Crucial CT525MX300SSD4','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Western Digital WD2500AAJS','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Western Digital WD20EZRZ','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Western Digital WDS256G1X0C','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('SanDisk SDSSDHII-480G-G25','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Kingston SV300S37A/120G','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Crucial','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('G.Skill TridentZ RGB','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Corsair Dominator Platinum','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('G.Skill Trident Z','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('G.Skill Trident Z RGB','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('G.Skill Ripjaws V Series','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Corsair Dominator Platinum','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Corsair Vengeance LPX','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Corsair Dominator Platinum','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Corsair Vengeance LPX','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Corsair Dominator Platinum','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Corsair Vengeance LPX','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Corsair Vengeance LPX','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('G.Skill Ripjaws 4 Series','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('G.Skill Ripjaws 4 Series','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Kingston HyperX Beast','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Crucial','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Corsair Vengeance Pro','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Corsair Dominator Platinum','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('G.Skill Trident Z RGB','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Crucial','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('G.Skill Trident Z','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Crucial','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('G.Skill Trident Z','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('G.Skill Trident Z','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Corsair Dominator Platinum','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Kingston','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Corsair Vengeance LPX','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('G.Skill Trident Z','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('G.Skill Trident Z','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('G.Skill Trident Z','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('G.Skill Ripjaws V Series','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Corsair Dominator Platinum','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Corsair Dominator Platinum','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('G.Skill Trident Z','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('G.Skill Trident Z','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('G.Skill Trident Z','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('G.Skill Ripjaws V Series','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('G.Skill Ripjaws V Series','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Corsair Vengeance LPX','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Corsair Dominator Platinum','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Corsair Vengeance LPX','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('G.Skill Ripjaws V Series','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('G.Skill Ripjaws V Series','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('G.Skill Ripjaws V Series','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('G.Skill Ripjaws V Series','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('G.Skill Ripjaws V Series','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('G.Skill Ripjaws V Series','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Kingston','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Corsair Dominator Platinum','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Kingston','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('G.Skill Trident X','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Corsair Vengeance LPX','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('G.Skill Ripjaws V Series','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('G.Skill Ripjaws V Series','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Kingston','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('G.Skill Ripjaws V Series','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('G.Skill Ripjaws V Series','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Kingston HyperX Predator','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Western Digital WD10EZEX','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Seagate ST2000DM006','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Samsung MZ-75E250B/AM','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('Samsung MZ-75E500B/AM','Storage');
+Insert into USER10.PRODUCT_NAMES_WITH_CATEGORIES (PRODUCT_NAME,CATEGORY_NAME) values ('SanDisk SDSSDA-240G-G26','Storage');
+REM INSERTING into USER10.TESTS
+SET DEFINE OFF;
+REM INSERTING into USER10.TEST_PIVOT
+SET DEFINE OFF;
+Insert into USER10.TEST_PIVOT (ORDER_ID,STATUS) values (105,'Pending');
+Insert into USER10.TEST_PIVOT (ORDER_ID,STATUS) values (44,'Pending');
+Insert into USER10.TEST_PIVOT (ORDER_ID,STATUS) values (101,'Pending');
+Insert into USER10.TEST_PIVOT (ORDER_ID,STATUS) values (1,'Pending');
+Insert into USER10.TEST_PIVOT (ORDER_ID,STATUS) values (5,'Canceled');
+Insert into USER10.TEST_PIVOT (ORDER_ID,STATUS) values (28,'Canceled');
+Insert into USER10.TEST_PIVOT (ORDER_ID,STATUS) values (87,'Canceled');
+Insert into USER10.TEST_PIVOT (ORDER_ID,STATUS) values (4,'Shipped');
+Insert into USER10.TEST_PIVOT (ORDER_ID,STATUS) values (41,'Shipped');
+Insert into USER10.TEST_PIVOT (ORDER_ID,STATUS) values (82,'Shipped');
+--------------------------------------------------------
+--  DDL for Index TABLE_2_PK
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "USER10"."TABLE_2_PK" ON "USER10"."DEBS_TABLE_2" ("A") 
+  PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS 
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
+  BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
+  TABLESPACE "USERS" ;
+--------------------------------------------------------
+--  Constraints for Table DEBS_TABLE_2
+--------------------------------------------------------
+
+  ALTER TABLE "USER10"."DEBS_TABLE_2" ADD CONSTRAINT "TABLE_2_PK" PRIMARY KEY ("A")
+  USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS 
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
+  BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
+  TABLESPACE "USERS"  ENABLE;
+--------------------------------------------------------
+--  Constraints for Table TEST_PIVOT
+--------------------------------------------------------
+
+  ALTER TABLE "USER10"."TEST_PIVOT" MODIFY ("STATUS" NOT NULL ENABLE);
+  ALTER TABLE "USER10"."TEST_PIVOT" MODIFY ("ORDER_ID" NOT NULL ENABLE);
+--------------------------------------------------------
+--  Constraints for Table DEBS_NEW_TABLE
+--------------------------------------------------------
+
+  ALTER TABLE "USER10"."DEBS_NEW_TABLE" ADD UNIQUE ("A")
+  USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS 
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
+  BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
+  TABLESPACE "USERS"  ENABLE;
+--------------------------------------------------------
+--  Constraints for Table DEBS_TABLE_DEFINITIONS
+--------------------------------------------------------
+
+  ALTER TABLE "USER10"."DEBS_TABLE_DEFINITIONS" ADD PRIMARY KEY ("DEF_ID")
+  USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS 
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
+  BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
+  TABLESPACE "USERS"  ENABLE;
+  ALTER TABLE "USER10"."DEBS_TABLE_DEFINITIONS" MODIFY ("WORD_DEF" NOT NULL ENABLE);
+--------------------------------------------------------
+--  Constraints for Table NEW_INVENTORIES
+--------------------------------------------------------
+
+  ALTER TABLE "USER10"."NEW_INVENTORIES" MODIFY ("QUANTITY" NOT NULL ENABLE);
+--------------------------------------------------------
+--  Constraints for Table NEW_TABLE
+--------------------------------------------------------
+
+  ALTER TABLE "USER10"."NEW_TABLE" ADD UNIQUE ("A")
+  USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS 
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
+  BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
+  TABLESPACE "USERS"  ENABLE;
+--------------------------------------------------------
+--  Constraints for Table DUPLICATE
+--------------------------------------------------------
+
+  ALTER TABLE "USER10"."DUPLICATE" MODIFY ("ORDER_DATE" NOT NULL ENABLE);
+  ALTER TABLE "USER10"."DUPLICATE" MODIFY ("STATUS" NOT NULL ENABLE);
+  ALTER TABLE "USER10"."DUPLICATE" MODIFY ("CUSTOMER_ID" NOT NULL ENABLE);
+  ALTER TABLE "USER10"."DUPLICATE" MODIFY ("ORDER_ID" NOT NULL ENABLE);
+--------------------------------------------------------
+--  Constraints for Table DEBS_TABLE_NAME
+--------------------------------------------------------
+
+  ALTER TABLE "USER10"."DEBS_TABLE_NAME" MODIFY ("V" NOT NULL ENABLE);
+--------------------------------------------------------
+--  Constraints for Table PRODUCT_NAMES_WITH_CATEGORIES
+--------------------------------------------------------
+
+  ALTER TABLE "USER10"."PRODUCT_NAMES_WITH_CATEGORIES" MODIFY ("CATEGORY_NAME" NOT NULL ENABLE);
+  ALTER TABLE "USER10"."PRODUCT_NAMES_WITH_CATEGORIES" MODIFY ("PRODUCT_NAME" NOT NULL ENABLE);
+--------------------------------------------------------
+--  Constraints for Table COLLECTIONS
+--------------------------------------------------------
+
+  ALTER TABLE "USER10"."COLLECTIONS" MODIFY ("C" NOT NULL ENABLE);
+--------------------------------------------------------
+--  Constraints for Table DEBS_TABLE
+--------------------------------------------------------
+
+  ALTER TABLE "USER10"."DEBS_TABLE" ADD CONSTRAINT "Between_1_100" CHECK (C BETWEEN 1 AND 100) ENABLE;
+  ALTER TABLE "USER10"."DEBS_TABLE" ADD PRIMARY KEY ("A")
+  USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS 
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
+  BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
+  TABLESPACE "USERS"  ENABLE;
+  ALTER TABLE "USER10"."DEBS_TABLE" MODIFY ("B" NOT NULL ENABLE);
+--------------------------------------------------------
+--  Constraints for Table TESTS
+--------------------------------------------------------
+
+  ALTER TABLE "USER10"."TESTS" ADD PRIMARY KEY ("A")
+  USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS 
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
+  BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
+  TABLESPACE "USERS"  ENABLE;
+  ALTER TABLE "USER10"."TESTS" MODIFY ("B" NOT NULL ENABLE);
+--------------------------------------------------------
+--  Constraints for Table DEBS_TABLE_WORDS
+--------------------------------------------------------
+
+  ALTER TABLE "USER10"."DEBS_TABLE_WORDS" ADD PRIMARY KEY ("WORD_ID")
+  USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS 
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
+  BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
+  TABLESPACE "USERS"  ENABLE;
+  ALTER TABLE "USER10"."DEBS_TABLE_WORDS" MODIFY ("WORD_NAME" NOT NULL ENABLE);
+--------------------------------------------------------
+--  Ref Constraints for Table DEBS_TABLE_DEFINITIONS
+--------------------------------------------------------
+
+  ALTER TABLE "USER10"."DEBS_TABLE_DEFINITIONS" ADD CONSTRAINT "FK_WORDS" FOREIGN KEY ("WORD_ID")
+	  REFERENCES "USER10"."DEBS_TABLE_WORDS" ("WORD_ID") ENABLE;
