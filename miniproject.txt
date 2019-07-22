@@ -60,7 +60,7 @@ Mini Project :
 	 pattern = '.*customer.csv'
 	 on_error = 'skip_file';
 
- 4.Exceuted the below query in snowsql from the customer table.
+ 4.Exceuted the below query in snowsql from the customer and contacts table.
 
 	 CREATE VIEW tempview AS
 	    ( SELECT
@@ -76,8 +76,8 @@ Mini Project :
 	                    ct.address,
 	                    ct.credit_limit
 	                FROM
-	                    ot.contacts    c
-	                    JOIN ot.customers   ct ON c.customer_id = ct.customer_id
+	                    contacts    c
+	                    JOIN customer   ct ON c.customer_id = ct.customer_id
 	                WHERE
 	                    ct.credit_limit IN (
 	                        100,
@@ -135,12 +135,3 @@ Mini Project :
 	plt.ylabel('NO OF PEOPLE')
 	display()
 
-
-	
-	
-
- 
-
-
-
-    
