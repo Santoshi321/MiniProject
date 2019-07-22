@@ -1,5 +1,5 @@
 # MiniProject
-# Prepare a Data Pipeline based in aforesaid diagram.
+# Prepare a Data Pipeline based on foresaid diagram.
 1.Extract the data from Oracle RDS instance
 
 2.Upload the data to your S3 bucket using Python ( or using Postman )
