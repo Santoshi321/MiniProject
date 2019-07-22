@@ -6,7 +6,7 @@
 
 3.mport the data into Snowflake from the s3 bucket
 
-4.Wrte the queries from Oracle/SQL assignments.
+4.Write the queries from Oracle/SQL assignments.
 
 5.Output of queries ( whichever query generates output ) export into S3 from Snowflake
 
